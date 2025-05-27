@@ -6,17 +6,17 @@ const Aloja = () => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black">
       <video
-        className="w-full h-full object-cover"
+        className="w-fit h-full object-cover"
         autoPlay
         loop
         controls
         playsInline
       >
-        <source src="/happyB.mp4" type="video/mp4" />
+        <source src="/aloja.mp4" type="video/mp4" />
         Tu navegador no soporta videos.
       </video>
       <button
-        className="absolute top-4 right-4 bg-white text-black px-4 py-2 rounded font-bold"
+        className="absolute top-4 right-4 bg-red-600 text-white px-4 py-2 rounded font-bold"
         onClick={() => (window.location.href = "/")}
       >
         Atrás
