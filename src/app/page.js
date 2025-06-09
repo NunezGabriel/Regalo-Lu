@@ -36,8 +36,8 @@ export default function Home() {
         <>
           <ParticlesComponent id="particles" />
           <section className="text-center mt-16 text-5xl flex flex-col gap-4">
-            <h1 className="font-light">Happy</h1>
-            <h1 className="font-bold">Birthday</h1>
+            <h1 className="font-bold">Feliz</h1>
+            <h1 className="font-bold">Cumpleaños</h1>
             <h1 className="font-bold rainbow-text">Luu!</h1>
           </section>
 
