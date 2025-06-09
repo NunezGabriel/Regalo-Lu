@@ -41,21 +41,21 @@ export default function Home() {
             <h1 className="font-bold rainbow-text">Luu!</h1>
           </section>
 
-          <section className="text-center mx-auto max-w-96 px-10 mt-16 text-xl flex flex-col gap-4">
-            <p className="font-light">
-              Un feliz cumpleaños a una futura gran developer. Eres una gran
-              amiga y compañera de trabajo, realmente aprecio tu amistad y
-              admiro muchas cosas de ti. Gracias por devolverme esa cultura de
-              pedalear y ojalá lo pases muy bonito el dia de hoy (psdata: Ojalá
-              no nos toque hacer nunca un trabajo en Java 🤢)
+          <section className="text-center mx-auto max-w-96 px-10 mt-12 text-xl flex flex-col gap-4 ">
+            <p className="font-light ">
+              Un feliz cumpleaños a una futura gran Developer/Programadora. Eres
+              una gran amiga y compañera, realmente aprecio tu amistad y admiro
+              muchas cosas de ti. Gracias por devolverme esa gusto por pedalear
+              y ojalá lo pases muy bonito el dia de hoy (psdata: ojalá borren
+              tutoria #Erick💀EnReniec #Deidad #LargavidaaFearLess)
             </p>
           </section>
 
           <Link
             href={"/aloja"}
-            className="border border-white text-white font-bold py-2 px-4 rounded mt-16 mx-auto mb-6"
+            className="border border-white text-white  font-bold py-2 px-4 rounded mt-12 mx-auto mb-6"
           >
-            Click Saludo Especial
+            Click AQUI Saludo Especial
           </Link>
         </>
       )}
